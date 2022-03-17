@@ -1,0 +1,104 @@
+.grid {
+    margin: 20px 20px 0;
+    outline: 3px solid  #05f842;
+  }
+   .info{
+    font-size: 15px;
+   margin: 40px 3px 40px 15px;
+    color: rgb(243, 23, 23);
+    text-align: right;
+    margin-top: 50px;
+   }
+   #infoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8px;
+   }
+   #infoNodes{
+     display: flex;
+     flex-direction: row;
+   }
+   #section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+ #header {
+    background-color:rgb(250, 250, 93);
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  #algoDropDown{
+    height:50px;
+    font-size: 13px;
+  }
+  #speedDropDown{
+    height:50px;
+    font-size: 13px;
+  }
+  .dropdown-items:click{
+    color: rgb(150, 94, 31);
+  }
+  #mazeDropDown{
+    height:50px;
+    font-size: 13px;
+  }
+  #clearButton{
+   height:50px;
+   font-size: 13px;
+  }
+  #visualizeButton{
+    height:50px;
+    font-size: 13px;
+  }
+#header h2{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    cursor: pointer;
+  }
+ #header p {
+    padding: 8px 10px 5px 10px;
+  }
+
+  #heading{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;  
+  }
+  #title{
+    animation-name: heading;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  }
+  
+  @keyframes heading {
+    0% {
+      transform: scale(0.3);
+      font-size: 2px;
+    }
+  
+    50% {
+      font-size: 8px;
+    }
+  
+    75% {
+      transform: scale(1.2);
+      font-size: 10px;
+    }
+  
+    100% {
+      transform: scale(1);
+      color: #fff;
+    }
+  }
+  
+  
